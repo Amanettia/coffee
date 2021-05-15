@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    min-height: 768px;
+}
+
+.header > div {
+    justify-content: space-around;
+    width: 25%;
+}
+
+header .header_logo {
+    padding-top: 75px;
+    text-align: center;
+    position: relative;
+}
+header .header_logo img{
+    cursor: pointer;
+}
+header .tagline{
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 70px;
+    color: #415167;
+    text-align: start;
+    cursor: default;
+
+}
+header .tagline span{
+    background: #C7A17A;
+    padding: 0 16px;
+    color: #F9FBFF;
+    margin-left: -20px;s
+}
+
+header .header_main{
+    width: 50%;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_navigation {
+    background-color: #415167;
+}
+
+.shopping_cart {
+    padding: 75px 0 0 56px;
+    cursor: pointer;
+}
+
+.shopping_cart__image {
+    position: relative;
+    background-image: url("../img/shopping-cart.png");
+    width: 18px;
+    height: 18px;
+}
+
+.shopping_cart_counter {
+    position: absolute;
+    width: 8px;
+    height: 22px;
+    left: 10px;
+    bottom: 12px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    background-color: #C7A17A;
+    border-radius: 100%;
+    padding: 2px 15px 9px 7px;
+}
+
+.menu_sidebar {
+    color: #EDF0F5;
+    font-size: 16px;
+    font-family: Nunito;
+    font-style: normal;
+    margin: 118px 0 0 56px;
+}
+
+.menu_sidebar .menu_sidebar_title {
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.menu_sidebar_item {
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.menu_sidebar_item:hover{
+    font-weight: bold;
+    line-height: 22px;
+}
+.main h1{
+    font-style: normal;
+    color: #415167;
+}
+.utilities{
+    margin: 5% 8%;
+}
+.utilities_cards{
+    display: flex;
+}
+.utilities_subtitle{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.utilities_title{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.utilities_card{
+    flex-wrap: nowrap;
+    flex-basis: 25%;
+    text-align: center;
+    margin: 0 24px;
+}
+.card_icon{
+    padding-bottom: 40px;
+}
+.card_title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #232C38;
+    padding-bottom: 12px;
+}
+.card_description{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #151D28;
+    max-width: 226px;
+    margin: 0 auto;
+}
